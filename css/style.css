@@ -1,0 +1,194 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	background: #F3F5FC;
+	
+}
+
+
+.caixa_logo {
+	
+	display: flex;
+	background: #F3F5FC;
+	padding: 1em 0 1em;
+	width: 50%;
+	
+}
+	
+
+main {
+	background: #F3F5FC;
+	height: 50em;
+}
+
+.caixa_principal {
+  position: relative;		
+  display: flex;  
+  margin: 0 auto;
+  width: 100%;
+  height: 100%; 
+  
+}
+
+.caixa_cri {
+  display: flex;
+  
+}
+
+.caixa_descr {
+	width: 25%;
+    background-color: white;
+    height: 55%;
+    border-radius: 2em;
+    margin-right: 1em;
+    margin-left: 0.5em;
+    border: 0.1em solid;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, .3);
+}
+
+.caixa_descr_img {
+    display: block;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.caixa_descr_img img {
+    margin-top: 10%;
+    width: 70%;
+}
+
+.caixa_descr_img h2 {
+    margin-top: 10%;
+}
+
+.caixa_descr_img p {
+    margin-top: 4%;
+}
+
+
+.msg_cri {
+	display: flex;
+	resize:none;
+	border: none;
+	background: #F3F5FC;
+	height: 55%;
+	width: 70em;
+	margin-left: 1em;
+	
+}
+
+
+#in_txt{
+	border: none;
+	background: transparent;
+	height: 25em;
+	width: 22em;
+	margin-left: -2em;
+	margin-top: -2em;
+	border-radius: 2em;
+	padding: 0.5em;
+	   
+}
+
+
+.img_atencao {
+	position: absolute;
+	left: 1.5em;
+	bottom: 21em;
+	
+	
+}
+.atencao {
+	position: absolute;
+	left: 3em;
+	bottom: 21em;
+	color: #495057;
+}
+
+
+.botao_criptografar  {
+	width: 20.5em;
+	height:4.18em;
+	background: #0A3871;
+	color: white;
+	font-size: 1em;	
+	cursor: pointer;	
+	border-style:solid;
+	border-width:0.06em;
+	border-color:#0A3871;
+	border-radius: 1.56em;
+	position: absolute;
+	bottom: 16em;
+  	left: 2em;
+}
+
+.botao_descriptografar {
+	width: 20.5em;
+	height:4.18em;
+	padding: 0.9em 0;
+	background: #D8DFE8;	
+	color: #0A3871;
+	font-size: 1em;
+	cursor: pointer;
+	margin-top: 1em;
+	border-style:solid;
+	border-width:0.06em;
+	border-color:#0A3871;
+	border-radius: 1.56em;
+	position: absolute;
+	bottom: 16em;
+  	left: 25em;
+}
+
+
+
+.botao_copiar {
+	width: 10em;
+	height: 3em;	
+	background: #D8DFE8;	
+	color: #0A3871;
+	font-size: 1em;
+	cursor: pointer;	
+	border-style:solid;
+	border-width:0.06em;
+	border-color:#0A3871;
+	border-radius: 1.56em;
+	margin-bottom: 10%;
+    margin-left: auto; 
+      	
+}
+
+
+
+.roda_pe {
+	display: flex;
+	justify-content: center;
+	  
+}
+
+.nome_dev {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.copyright {
+	text-align: center;
+}
+
+.ico_git {	
+	
+	width: 2em;
+	height: 2em;
+	padding: 0.05em;	
+}
+
+.ico_lin {
+		
+	width: 2em;
+	height: 2em;
+	padding: 0.05em;	
+}
+

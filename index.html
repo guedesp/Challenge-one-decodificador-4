@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>A máquina Enigma Alura</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>						
+		</header>
+	<main>
+		<div class="caixa_logo">
+			<img class="logo_inicial" src="imagens/letra_A_ 6@1x.png">
+		</div>
+
+	  	<div class="caixa_principal">
+			<div class="caixa_cri">
+					<textarea cols="70" rows="10px"  class="msg_cri" placeholder="Digite seu texto"></textarea>
+			</div>
+			<div class="caixa_descr" >
+				<div class="caixa_descr_img" id="caixaDescrImg">
+					 <img src="imagens/lupa_1.png">
+                     <h2 >Nenhum texto encontrado</h2>
+                     <p >Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+                </div>     
+			</div>				
+			<div>
+					<img src="imagens/Group.png" class="img_atencao"><p class="atencao">Apenas letras minúsculas e sem acento.</p>
+					<input type="button" class="botao_criptografar" onclick="button_criptografar()" value="Criptografar"></input>
+			</div>
+			<div>
+					<input type="button" class="botao_descriptografar" onclick="button_descriptografar()" value="Descriptografar"></input>					
+			</div>
+		
+		
+		</div>
+			
+
+	</main>
+	<footer>
+		<p class="nome_dev">Daniel Guedes</p>
+			
+		<div class="roda_pe">	
+			<div>
+				<img src="imagens/github.png" alt="Github" class="ico_git">
+			</div>
+			<div>
+				<img src="imagens/linkedin.png" alt="Github" class="ico_lin">
+			</div>	
+		</div>	
+		<p class="copyright">&copy; Copyright Daniel Guedes - 2022</p>			
+	</footer>
+		<script src="js\codificador.js"></script>
+		
+	</body>
+</html>
